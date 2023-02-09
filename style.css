@@ -21,20 +21,23 @@ h1 {
   color: white;
   font-size: 2.5em;
   margin: 0;
+  
 }
 
 #content {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 50vw;
+  max-width:50em;
   margin: auto;
   gap: 10px;
+  padding:0px 10px;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 header {
@@ -54,6 +57,7 @@ section.city-list {
   border: 1px solid #d4e9e2;
   border-radius: .2em;
   padding: 20px;
+  
 }
 
 .city-item {
@@ -62,4 +66,5 @@ section.city-list {
   display: flex;
   justify-content: flex-end;
   padding: 5px;
+  
 }
